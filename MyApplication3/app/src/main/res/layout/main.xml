@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/bg"
+    android:id="@+id/linearLayout">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        tools:layout_conversion_absoluteHeight="53dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_conversion_absoluteWidth="145dp" />
+
+    <EditText
+        android:id="@+id/textView2"
+        android:layout_width="264dp"
+        android:layout_height="wrap_content"
+        android:text="search"
+        android:textSize="20sp"
+        android:visibility="visible"
+        tools:layout_conversion_absoluteHeight="166dp"
+        tools:layout_conversion_absoluteWidth="0dp"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="11dp" />
+
+
+</LinearLayout>
